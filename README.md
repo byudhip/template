@@ -1,2 +1,7 @@
 # template
-to be used as template for future projects
+
+How to create new repo from template
+gh repo create my-new-project --template byudhip/template
+
+Install dependencies
+npm install
