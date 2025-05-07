@@ -55,4 +55,14 @@ export default defineConfig([
       globals: { ...globals.node },
     },
   },
+  {
+    overrides: [
+      {
+        files: ['tests/**/*'],
+        env: {
+          jest: true,
+        },
+      },
+    ],
+  },
 ]);
